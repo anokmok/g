@@ -1,0 +1,93 @@
+Xsession: X session started for anokmok at Wed 22 Sep 2021 01:21:03 AM +08
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/anokmok/.Xauthority
+localuser:anokmok being added to access control list
+dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting POWERSHELL_TELEMETRY_OPTOUT=1
+dbus-update-activation-environment: setting USER=anokmok
+dbus-update-activation-environment: setting LANGUAGE=en_US:en
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting DOTNET_CLI_TELEMETRY_OPTOUT=1
+dbus-update-activation-environment: setting HOME=/home/anokmok
+dbus-update-activation-environment: setting DESKTOP_SESSION=lightdm-xsession
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting COMMAND_NOT_FOUND_INSTALL_PROMPT=1
+dbus-update-activation-environment: setting QT_QPA_PLATFORMTHEME=qt5ct
+dbus-update-activation-environment: setting LOGNAME=anokmok
+dbus-update-activation-environment: setting QT_AUTO_SCREEN_SCALE_FACTOR=0
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games
+dbus-update-activation-environment: setting _JAVA_OPTIONS=-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting LANG=en_US.UTF-8
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=lightdm-xsession
+dbus-update-activation-environment: setting XAUTHORITY=/home/anokmok/.Xauthority
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm/data/anokmok
+dbus-update-activation-environment: setting SHELL=/usr/bin/zsh
+dbus-update-activation-environment: setting GDMSESSION=lightdm-xsession
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting PWD=/home/anokmok
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share/:/usr/share/
+/usr/bin/x-session-manager: X server already running on display :0
+/usr/bin/iceauth:  creating new authority file /run/user/1000/ICEauthority
+xfce4-session-Message: 01:21:05.166: SSH authentication agent is already running
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfwm4:836): GLib-CRITICAL **: 01:21:05.672: g_str_has_prefix: assertion 'prefix != NULL' failed
+
+(xfwm4:836): xfwm4-WARNING **: 01:21:06.488: Another compositing manager is running on screen 0
+
+(xfsettingsd:851): GLib-CRITICAL **: 01:21:06.996: g_str_has_prefix: assertion 'prefix != NULL' failed
+
+(xfsettingsd:851): GLib-GObject-CRITICAL **: 01:21:07.031: g_value_get_string: assertion 'G_VALUE_HOLDS_STRING (value)' failed
+
+** (xfce4-power-manager:885): WARNING **: 01:21:09.614: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.freedesktop.PowerManagement': no such name
+
+
+** (xfce4-power-manager:885): WARNING **: 01:21:09.615: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.xfce.PowerManager': no such name
+
+
+(xfce4-power-manager:885): GLib-GObject-WARNING **: 01:21:10.387: ../../../gobject/gsignal.c:2614: signal 'Changed' is invalid for instance '0x56290622e8c0' of type 'GDBusProxy'
+
+(xfce4-power-manager:885): xfce4-power-manager-WARNING **: 01:21:10.515: could not map keysym 1008ffa8 to keycode
+
+
+** (xfce4-power-manager:885): WARNING **: 01:21:10.544: No outputs have backlight property
+
+(xfce4-power-manager:885): xfce4-power-manager-WARNING **: 01:21:10.633: Failed to get keyboard max brightness level : GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.UPower.KbdBacklight” on object at path /org/freedesktop/UPower/KbdBacklight
+
+** (xiccd:886): WARNING **: 01:21:11.942: EDID is empty
+blueman-applet 01.21.24 WARNING  PluginManager:148 __load_plugin: Not loading PPPSupport because its conflict has higher priority
+blueman-applet 01.21.24 WARNING  PluginManager:148 __load_plugin: Not loading DhcpClient because its conflict has higher priority
+
+(wrapper-2.0:875): Gtk-WARNING **: 01:21:25.440: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner GtkToggleButton)
+
+** (wrapper-2.0:958): WARNING **: 01:21:25.946: No outputs have backlight property
+
+(wrapper-2.0:957): GLib-GIO-CRITICAL **: 01:21:25.960: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:957): GLib-GIO-CRITICAL **: 01:21:25.960: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:957): GLib-GObject-WARNING **: 01:21:25.960: invalid (NULL) pointer instance
+
+(wrapper-2.0:957): GLib-GObject-CRITICAL **: 01:21:25.960: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:957): Gtk-WARNING **: 01:21:25.960: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+(wrapper-2.0:957): Gtk-WARNING **: 01:21:26.164: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:956): Gtk-WARNING **: 01:21:26.202: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner PulseaudioButton)
+
+(wrapper-2.0:958): xfce4-power-manager-plugin-WARNING **: 01:21:26.508: Xfce4-power-manager: The panel plugin is present, so the tray icon gets disabled.
+blueman-applet 01.21.26 WARNING  DiscvManager:109 update_menuitems: warning: Adapter is None
+
+(wrapper-2.0:958): Gtk-WARNING **: 01:21:26.648: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner PowerManagerButton)
+Using a variable-width font in the terminal.  This may cause performance degradation and display/alignment errors.
+Using a variable-width font in the terminal.  This may cause performance degradation and display/alignment errors.
